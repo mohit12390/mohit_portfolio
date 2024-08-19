@@ -7,48 +7,7 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
 integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" 
-crossorigin="anonymous">    <title>Jon Doe | Web Development</title>
-
-<script>
-  function validateForm()
-   {
-     var name = document.forms["myForm"]["Name"].value;
-     var email = document.forms["myForm"]["Email"].value;
-     var message = document.forms["myForm"]["Message"].value;
-     var atposition=email.indexOf("@");  
-     var dotposition=email.lastIndexOf("."); 
-  
-        if (name == "")
-         {
-            alert("Name must be filled out");
-            return false;
-      }
-    
-      if(email == "")
-      {
-            alert("email must be filled out");
-            return false;
-      }
-      if (atposition<1 || dotposition<atposition+2 || dotposition+2>=a.length)
-      { 
-  
-      alert("Please enter a valid e-mail address");  
-      return false;
-      }
-  
-      if(message == "")
-      {
-            alert("message must be filled out");
-            return false;
-      }
-      else
-      {
-        alert("form submitted Successfully!, Please check your email " + a);
-       
-      }
-  }
-  </script>
-
+crossorigin="anonymous">
 
 <body class="w3-light-grey">
 
